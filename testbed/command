@@ -1,0 +1,17 @@
+# Table command
+
+> pd-aggregator
+
+pd check_destination add_entry mark_to_controller ipv4_dstAddr 192.168.0.3
+pd forward_aggregation_results add_entry retrieve_aggregation action_egress_spec 8
+
+> pd outPort_table add_entry set_egr p4ml_wor   
+
+
+# Host run command
+## client
+sudo ./app 0 veth0 veth2
+sudo ./app 1 veth4 veth6
+sudo ./app 2 veth8 veth10
+sudo ./app 3 veth12 veth14
+## server

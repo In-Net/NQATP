@@ -1,0 +1,28 @@
+{
+	"queries": [
+		{
+			"qid": 1,
+			"monitors": [3,4, 5]
+		},
+		{
+			"qid": 2,
+			"monitors": [3, 4, 6]
+		},
+		{
+			"qid": 3,
+			"monitors": [3, 4, 7]
+		},
+		{
+			"qid": 4,
+			"monitors": [3, 5, 6]
+		},
+		{
+			"qid": 5,
+			"monitors": [3, 5, 7]
+		},
+		{
+			"qid": 6,
+			"monitors": [3, 6, 7]
+		}
+	]
+}

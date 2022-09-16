@@ -1,0 +1,27 @@
+centralized percentage,hamming distance,type
+80,28,LP
+75,61,LP
+70,38,LP
+65,58,LP
+60,69,LP
+55,67,LP
+50,85,LP
+45,84,LP
+40,129,LP
+35,159,LP
+30,195,LP
+25,201,LP
+20,270,LP
+80,470,Random
+75,453,Random
+70,517,Random
+65,500,Random
+60,525,Random
+55,555,Random
+50,603,Random
+45,558,Random
+40,627,Random
+35,647,Random
+30,684,Random
+25,739,Random
+20,742,Random

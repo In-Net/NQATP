@@ -1,0 +1,357 @@
+{
+  "target": "bmv2",
+  "p4info": "build/everyone-is-aggregator.p4.p4info.txt",
+  "bmv2_json": "build/everyone-is-aggregator.json",
+  "table_entries": [
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 5
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 3,
+          "upstream_vine_bitmap": 3,
+          "upstream_leaf_bitmap": 3
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 9
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 3,
+          "upstream_vine_bitmap": 3,
+          "upstream_leaf_bitmap": 3
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 12
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 3,
+          "upstream_vine_bitmap": 3,
+          "upstream_leaf_bitmap": 3
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 14
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 3,
+          "upstream_vine_bitmap": 3,
+          "upstream_leaf_bitmap": 3
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 15
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 3,
+          "upstream_vine_bitmap": 3,
+          "upstream_leaf_bitmap": 3
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 19
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 22
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 24
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 25
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 28
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 30
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 31
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 33
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 34
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 35
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 7,
+          "upstream_vine_bitmap": 7,
+          "upstream_leaf_bitmap": 7
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 38
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 40
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 41
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 43
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 44
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 45
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 47
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 1,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 48
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 49
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    },
+    {
+      "table": "MyIngress.check_my_char",
+      "match": {
+        "hdr.mymcast.qID": 50
+      },
+      "action_name": "MyIngress.mark_character",
+      "action_params": {
+          "bitmap": 1,
+          "downsteam_vine_bitmap": 3,
+          "core_bitmap": 15,
+          "upstream_vine_bitmap": 15,
+          "upstream_leaf_bitmap": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+      "query_id": 0,
+      "src_host_id": 8,
+      "dst_host_id": 13
+  },
+  {
+      "query_id": 0,
+      "src_host_id": 8,
+      "dst_host_id": 15
+  },
+  {
+      "query_id": 0,
+      "src_host_id": 5,
+      "dst_host_id": 7
+  },
+  {
+      "query_id": 0,
+      "src_host_id": 5,
+      "dst_host_id": 8
+  }
+]
